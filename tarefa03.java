@@ -34,3 +34,8 @@ public class Bairro{
     private String nome;
     private Cidade cidade
 }
+
+public class Cidade{
+    private String nome;
+    private Estado estado
+}
