@@ -29,3 +29,8 @@ public class PessoaFisica{
     private Endereco Endereco;
 
 }
+
+public class Bairro{
+    private String nome;
+    private Cidade cidade
+}
