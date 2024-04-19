@@ -22,3 +22,10 @@ enum TipoEndereco{
     Residencial
 }
 
+public class PessoaFisica{
+    private String nome;
+    private String sexo;
+    private Date dataNascimento;
+    private Endereco Endereco;
+
+}
