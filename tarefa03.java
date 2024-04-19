@@ -45,3 +45,15 @@ public class Estado{
     public String nome;
     private Pais pais;
 }
+
+public class Pais{
+    public String nome
+}
+
+public class Endereco{
+    private int numero;
+    private String Complemento;
+    private int CEP;
+    private TipoEndereco tipoEndereco;
+    private Bairro bairro
+}
