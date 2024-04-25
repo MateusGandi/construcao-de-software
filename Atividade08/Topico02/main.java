@@ -24,6 +24,11 @@ public class Main {
             }
         }
         scanner.close();
+
+        System.out.println("Elementos do vetor:");
+        for (int i = -1; i < count; i++) {
+            System.out.print(vet[i] + " ");
+        }
     }
 }
 
