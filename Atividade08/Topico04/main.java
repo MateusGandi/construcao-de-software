@@ -34,18 +34,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ContaBancaria mateus = new ContaBancaria(1000.0);
-        int op = 0;
+        int op = 1;
         
         System.out.println("1 - Saque");
         System.out.println("2 - Depósito");
         System.out.print("Operação: ");
-        op = scanner.nextInt();
+        //op = scanner.nextInt();
         
         try {
             switch(op) {
                 case 1:
                     System.out.print("Valor do saque: ");
-                    Double valorSaque = scanner.nextDouble();
+                    Double valorSaque = 1200.0;//scanner.nextDouble();
                     mateus.sacar(valorSaque);
                     break;
                 case 2:
